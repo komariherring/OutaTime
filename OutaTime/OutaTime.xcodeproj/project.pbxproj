@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE4885DB1D400443008F4F90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4885DA1D400443008F4F90 /* main.m */; };
+		EE4885DE1D400443008F4F90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4885DD1D400443008F4F90 /* AppDelegate.m */; };
+		EE4885E11D400443008F4F90 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4885E01D400443008F4F90 /* DatePickerViewController.m */; };
+		EE4885E41D400443008F4F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4885E21D400443008F4F90 /* Main.storyboard */; };
+		EE4885E61D400443008F4F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4885E51D400443008F4F90 /* Assets.xcassets */; };
+		EE4885E91D400443008F4F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4885E71D400443008F4F90 /* LaunchScreen.storyboard */; };
+		EE4885F21D400C06008F4F90 /* CircuitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4885F11D400C06008F4F90 /* CircuitsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE4885D61D400443008F4F90 /* OutaTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutaTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4885DA1D400443008F4F90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE4885DC1D400443008F4F90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE4885DD1D400443008F4F90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE4885DF1D400443008F4F90 /* DatePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		EE4885E01D400443008F4F90 /* DatePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		EE4885E31D400443008F4F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4885E51D400443008F4F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4885E81D400443008F4F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE4885EA1D400443008F4F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4885F01D400C06008F4F90 /* CircuitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircuitsViewController.h; sourceTree = "<group>"; };
+		EE4885F11D400C06008F4F90 /* CircuitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircuitsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4885D31D400443008F4F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE4885CD1D400443008F4F90 = {
+			isa = PBXGroup;
+			children = (
+				EE4885D81D400443008F4F90 /* OutaTime */,
+				EE4885D71D400443008F4F90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4885D71D400443008F4F90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4885D61D400443008F4F90 /* OutaTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4885D81D400443008F4F90 /* OutaTime */ = {
+			isa = PBXGroup;
+			children = (
+				EE4885DC1D400443008F4F90 /* AppDelegate.h */,
+				EE4885DD1D400443008F4F90 /* AppDelegate.m */,
+				EE4885F01D400C06008F4F90 /* CircuitsViewController.h */,
+				EE4885F11D400C06008F4F90 /* CircuitsViewController.m */,
+				EE4885DF1D400443008F4F90 /* DatePickerViewController.h */,
+				EE4885E01D400443008F4F90 /* DatePickerViewController.m */,
+				EE4885E21D400443008F4F90 /* Main.storyboard */,
+				EE4885E51D400443008F4F90 /* Assets.xcassets */,
+				EE4885E71D400443008F4F90 /* LaunchScreen.storyboard */,
+				EE4885EA1D400443008F4F90 /* Info.plist */,
+				EE4885D91D400443008F4F90 /* Supporting Files */,
+			);
+			path = OutaTime;
+			sourceTree = "<group>";
+		};
+		EE4885D91D400443008F4F90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4885DA1D400443008F4F90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4885D51D400443008F4F90 /* OutaTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4885ED1D400443008F4F90 /* Build configuration list for PBXNativeTarget "OutaTime" */;
+			buildPhases = (
+				EE4885D21D400443008F4F90 /* Sources */,
+				EE4885D31D400443008F4F90 /* Frameworks */,
+				EE4885D41D400443008F4F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OutaTime;
+			productName = OutaTime;
+			productReference = EE4885D61D400443008F4F90 /* OutaTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4885CE1D400443008F4F90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "The Iron Yard";
+				TargetAttributes = {
+					EE4885D51D400443008F4F90 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EE4885D11D400443008F4F90 /* Build configuration list for PBXProject "OutaTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4885CD1D400443008F4F90;
+			productRefGroup = EE4885D71D400443008F4F90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4885D51D400443008F4F90 /* OutaTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4885D41D400443008F4F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4885E91D400443008F4F90 /* LaunchScreen.storyboard in Resources */,
+				EE4885E61D400443008F4F90 /* Assets.xcassets in Resources */,
+				EE4885E41D400443008F4F90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4885D21D400443008F4F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4885E11D400443008F4F90 /* DatePickerViewController.m in Sources */,
+				EE4885DE1D400443008F4F90 /* AppDelegate.m in Sources */,
+				EE4885DB1D400443008F4F90 /* main.m in Sources */,
+				EE4885F21D400C06008F4F90 /* CircuitsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE4885E21D400443008F4F90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4885E31D400443008F4F90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4885E71D400443008F4F90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4885E81D400443008F4F90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4885EB1D400443008F4F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE4885EC1D400443008F4F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4885EE1D400443008F4F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OutaTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.OutaTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE4885EF1D400443008F4F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OutaTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.OutaTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4885D11D400443008F4F90 /* Build configuration list for PBXProject "OutaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4885EB1D400443008F4F90 /* Debug */,
+				EE4885EC1D400443008F4F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4885ED1D400443008F4F90 /* Build configuration list for PBXNativeTarget "OutaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4885EE1D400443008F4F90 /* Debug */,
+				EE4885EF1D400443008F4F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4885CE1D400443008F4F90 /* Project object */;
+}
